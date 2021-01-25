@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+
+* {
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    border:0;
+    font-family: 'Merriweather', serif;
+
+}
+
+header {
+    background-color: snow;
+
+}
+
+#logo {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(163, 49, 49);
+}
+
+#logo > h1 {
+    color:snow;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 15px;
+    font-weight: 100;
+}
+
+.center {
+    width: 100%;
+    height: 900px;
+    background-color: black;
+}
+
+.mobile-container {
+  max-width: 480px;
+  margin: auto;
+  background-color: #555;
+  height: 500px;
+  color: white;
+  border-radius: 10px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  display: block;
+  text-align: center;
+
+}
+
+.topnav a.icon {
+  background:   rgb(179, 66, 50);
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.active {
+  background-color:rgb(179, 66, 50);
+  color: white;
+}
+
+#img-box {
+  width: 100%;
+  height: 100vh;
+  background-color: transparent;
+  display: inline-block;
+  position: relative;  
+}
+
+#img-box > figcaption {
+  position: absolute;
+  top: 75px;
+  left: 25px;
+  right: 25px;
+  font-size: 24px;
+  font-weight: 600;
+  color:rgb(8, 9, 13);
+}
+
+#img-box > hr {
+  width: 100px;
+  height: 3px;
+  margin-top: 215px;
+  position: absolute;
+  left: 25px;
+  background-color:rgb(179, 66, 50);
+}
+
+#img-box > img {
+  width: 100%;
+  height: 100vh;
+}
+
+#areas-container {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(242, 242, 242);
+  padding: 30px 0 30px 0;
+}
+
+#areas-container > h4 {
+  text-align: center;
+  color: rgb(7, 7, 7);
+  padding: 10px 0 15px 0;
+}
+
+.area hr {
+  width: 80%;
+  margin: 25px auto;
+  border-width: 1px;
+  background-color: rgb(83, 83, 83);
+}
+.area .area-name {
+  text-align: center;
+  padding: 0px 0 30px 0;
+  color: rgb(179, 66, 50);
+}
+
+.area .div-text-area {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.div-text-area .text {
+  color: rgb(83, 83, 83);
+  margin: auto;
+  overflow: hidden;
+  width:325px;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+}
+
+.div-text-area > .last {
+  margin-bottom: 70px;
+}
+
+#testimonials {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(255, 255, 255);
+
+}
