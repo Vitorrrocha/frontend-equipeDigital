@@ -58,7 +58,7 @@ header {
   color: white;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 15px;
+  font-size: 17px;
   display: block;
   text-align: center;
 
@@ -75,6 +75,11 @@ header {
 .topnav a:hover {
   background-color: #ddd;
   color: black;
+}
+
+.topnav #EN:hover {
+  background-color: #ddd;
+  color: rgb(179, 66, 50);
 }
 
 .active {
@@ -121,10 +126,21 @@ header {
   padding: 30px 0 30px 0;
 }
 
+#areas-container > hr {
+  width: 30%;
+  margin: 10px auto;
+  border-width: 2px;
+  background-color: rgb(179, 66, 50);
+}
+
 #areas-container > h4 {
   text-align: center;
   color: rgb(7, 7, 7);
   padding: 10px 0 15px 0;
+}
+
+.area {
+  margin-top: 35px;
 }
 
 .area hr {
@@ -147,9 +163,10 @@ header {
 
 .div-text-area .text {
   color: rgb(83, 83, 83);
-  margin: auto;
+  margin: 0 5px;
   overflow: hidden;
-  width:310px;
+  min-width: 310px;
+  max-width: 450px;
   display: -webkit-box;
   -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
@@ -162,6 +179,57 @@ header {
 #testimonials {
   width: 100%;
   height: 100vh;
+  padding-top: 40px;
   background-color: rgb(255, 255, 255);
+  text-align: center;
+}
 
+#testimonials > hr {
+  width: 15%;
+  margin: 15px auto;
+  border-width: 2px;
+  background-color: rgb(179, 66, 50);
+}
+
+#testimonials > h4 {
+  color: rgb(7, 7, 7);
+}
+
+footer {
+  width: 100%;
+  height: 100%;
+  padding: 100px 0;
+  bottom: 0;
+  background-color: rgb(27, 49, 70);
+  color: white;
+}
+
+footer .footer-container {
+  width: 300px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footer-container h4 {
+  padding-top: 30px;
+  margin: 0;
+}
+
+.footer-container h5 {
+  padding: 15px 0 10px 0;
+  margin: 0;
+}
+
+.footer-container ul > li {
+  padding-top: 5px;
+}
+
+.footer-container ul > li a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer-container ul > li a:hover{
+  color: rgb(179, 66, 50);
+  cursor: pointer;
 }

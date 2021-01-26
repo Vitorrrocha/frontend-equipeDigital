@@ -10,14 +10,6 @@
 </head>
 <body>
     <header>
-        <!-- <div id="logo">
-            <h1>Tomaszycki.</h1>
-            <div>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-            </div>
-        </div> -->
         <div class="topnav">
             <a href="#home" class="active">Tomaszycki.</a>
             <div id="myLinks">
@@ -26,20 +18,21 @@
               <a href="#areas-container">PRACTICE AREAS</a>
               <a href="#faq">FAQ</a>
               <a href="#contact">CONTACT</a>
-              <a href="#EN">EN</a>
+              <a href="#EN" id="EN">EN</a>
             </div>
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <a href="javascript:void(0);" class="icon" onclick="mobileLink()">
               <i class="fa fa-bars"></i>
             </a>
-        </div>
+        </div><!--topnav-->
     </header>
     <div id="img-box">
       <figcaption>We've provided legal help since 1979 in Southeastern MI & Metro Detroit</figcaption>
       <hr><!-- red-line -->
        <img src="./assets/mobile-version-teste2.png" alt="image conversation meeting"> 
-    </div>
+    </div><!--img-box-->
 
     <div id="areas-container">
+      <hr>
       <h4>Proudly Represent Clients</h4>
       <div class="areas-box">
         <div class="area">
@@ -63,6 +56,7 @@
               protecting your best interest whatever the case is!
             </h6>
           </div><!--div-text-area-->
+        </div><!--area-->
         <div class="area">
           <hr>
           <h5 class="area-name">Real State Law</h5>
@@ -74,20 +68,36 @@
             </h6>
           </div><!--div-text-area-->
         </div><!--area-->
-      </div><!--area-box-->
+      </div><!--areas-box-->
     </div><!--area-container-->
 
     <div id="testimonials">
+      <hr>
+      <h4>Testimonials</h4>
+      <div class="testimonials-texts">
 
+      </div>
     </div>
 
-    <footer>
-
+    <footer id="contact">
+      <div class="footer-container">
+        <h4>Social</h4>
+        <ul>
+          <li><a href="#" target="blank_">Facebook</a></li>
+          <li><a href="#" target="blank_">Twitter</a></li>
+          <li><a href="#" target="blank_">Google +</a></li>
+        </ul>
+        <h4>Contact Us</h4>
+        <h5>Email</h5>
+        <h6><a href="mailto: contact@tomaszyck.com">contact@tomaszyck.com</a></h6>
+        <h5>Address</h5>
+        <h6>1000 John R Rd, Suite 218<br>Troy, Michigan 48083</h6>
+      </div>
     </footer>
 
 
     <script>
-        function myFunction() {
+        function mobileLink() {
           var x = document.getElementById("myLinks");
           if (x.style.display === "block") {
             x.style.display = "none";
@@ -95,6 +105,6 @@
             x.style.display = "block";
           }
         }
-        </script>
+    </script>
 </body>
 </html>
