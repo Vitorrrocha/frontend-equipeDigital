@@ -149,7 +149,7 @@ header {
   color: rgb(83, 83, 83);
   margin: auto;
   overflow: hidden;
-  width:325px;
+  width:310px;
   display: -webkit-box;
   -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
