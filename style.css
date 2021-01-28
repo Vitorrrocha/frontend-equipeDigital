@@ -15,39 +15,14 @@ header {
 
 }
 
-#logo {
-    width: 100%;
-    height: 50px;
-    background-color: rgb(163, 49, 49);
-}
-
-#logo > h1 {
-    color:snow;
-    font-size: 15px;
-    text-align: center;
-    padding-top: 15px;
-    font-weight: 100;
-}
-
-.center {
-    width: 100%;
-    height: 900px;
-    background-color: black;
-}
-
-.mobile-container {
-  max-width: 480px;
-  margin: auto;
-  background-color: #555;
-  height: 500px;
-  color: white;
-  border-radius: 10px;
-}
-
 .topnav {
   overflow: hidden;
   background-color: #333;
   position: relative;
+}
+
+.topnav-desktop {
+  display: none;
 }
 
 .topnav #myLinks {
@@ -89,13 +64,11 @@ header {
 
 #img-box {
   width: 100%;
-  height: 100vh;
-  background-color: transparent;
   display: inline-block;
   position: relative;  
 }
 
-#img-box > figcaption {
+#img-box figcaption {
   position: absolute;
   top: 75px;
   left: 25px;
@@ -105,7 +78,7 @@ header {
   color:rgb(8, 9, 13);
 }
 
-#img-box > hr {
+#img-box hr {
   width: 100px;
   height: 3px;
   margin-top: 215px;
@@ -114,9 +87,10 @@ header {
   background-color:rgb(179, 66, 50);
 }
 
-#img-box > img {
+#img-box img {
   width: 100%;
   height: 100vh;
+  src: url("./assets/mobile-version.png");
 }
 
 #areas-container {
@@ -178,7 +152,7 @@ header {
 
 #testimonials {
   width: 100%;
-  height: 100vh;
+  height: 100%;
   padding-top: 40px;
   background-color: rgb(255, 255, 255);
   text-align: center;
@@ -193,6 +167,49 @@ header {
 
 #testimonials > h4 {
   color: rgb(7, 7, 7);
+}
+
+
+.testimonials-box {
+  margin: auto;
+  padding: 10px 5px;
+}
+
+.testimonials-box .text {
+  color: black;
+}
+
+.mySlides {
+  display: none;
+  width: 100%;
+}
+
+.testimonials-text {
+  color: #423f3f;
+  font-size: 0.9em;
+  padding: 5px 12px 2rem 12px;
+  text-align: center;
+} 
+
+.prev-next-box {
+  width: auto;
+  height: 30px;
+  padding: 40px 0 40px 0;
+}
+
+.prev, .next {
+  cursor: pointer;
+  width: auto;
+  padding: 0 70px 0 70px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  user-select: none;
+}
+
+.prev:hover, .next:hover {
+  color: rgb(179, 66, 50)!important;
+  transition: ease-in-out 0.3s;
 }
 
 footer {
@@ -232,4 +249,85 @@ footer .footer-container {
 .footer-container ul > li a:hover{
   color: rgb(179, 66, 50);
   cursor: pointer;
+}
+
+/* Desktop Version*/
+@media (min-width: 768px){
+  header {
+    background-color:rgb(250, 250, 250);
+  }
+
+  .topnav {
+    display: none;
+  }
+
+  .topnav-desktop {
+    display: block;
+    width: calc(550px + 25%);
+    height: 60px;
+    margin: 0 auto;
+  }
+
+  .logo-box {
+    width: 500px;
+    padding: 0;
+    position: absolute;
+    text-align: start;
+  }
+
+  .logo {
+    padding-top: 13px;
+  }
+
+  .logo a {
+    padding: 20px 15px 15px 15px;
+    text-align: center;
+    font-size: 14px; 
+    text-decoration: none;  
+    background-color: rgb(179, 66, 50); 
+    color: white;
+  } 
+
+  .logo  a:hover{
+    color: rgb(0, 0, 0);
+  }
+
+  #myLinks-desktop {
+    text-align: end;
+    padding: 15px 0 0 0;
+  }
+
+  #myLinks-desktop > a{
+    padding: 0  10px;
+    color: rgb(60, 118, 206);
+    font-size: 14px;
+    text-decoration: none;
+  }
+
+  #myLinks-desktop > a:hover{
+    color:  rgb(179, 66, 50);
+  }
+
+  #img-box {
+    width: 100%;
+  }
+
+
+  #img-box figcaption {
+    width: 350px;
+    left: calc(190px + 5%);
+    margin-top: 80px;
+  }
+
+  #img-box hr {
+    width: 100px;
+    left: calc(190px + 5%);
+    margin-top: 275px;
+    justify-content: start;
+  }
+
+  #img-box img {
+    src: url("./assets/desktop-version.png");
+  }
+
 }

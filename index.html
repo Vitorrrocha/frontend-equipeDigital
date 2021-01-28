@@ -24,11 +24,28 @@
               <i class="fa fa-bars"></i>
             </a>
         </div><!--topnav-->
+
+        <div class="topnav-desktop">
+          <div class="logo-box">
+            <div class="logo">
+              <a href="#home">Tomaszycki.</a>
+            </div>
+          </div>
+          <div id="myLinks-desktop">
+            <a href="#home">HOME</a>|
+            <a href="#about">ABOUT</a>|
+            <a href="#areas-container">PRACTICE AREAS</a>|
+            <a href="#faq">FAQ</a>|
+            <a href="#contact">CONTACT</a>|
+            <a href="#EN" id="EN">EN</a>
+          </div>
+        </div><!-- topnav-desktop -->
+
     </header>
     <div id="img-box">
-      <figcaption>We've provided legal help since 1979 in Southeastern MI & Metro Detroit</figcaption>
-      <hr><!-- red-line -->
-       <img src="./assets/mobile-version-teste2.png" alt="image conversation meeting"> 
+        <figcaption>We've provided legal help since 1979 in Southeastern MI & Metro Detroit</figcaption>
+        <hr><!-- red-line -->
+      <img src="./assets/mobile-version.png" alt="image conversation meeting" /> 
     </div><!--img-box-->
 
     <div id="areas-container">
@@ -74,9 +91,51 @@
     <div id="testimonials">
       <hr>
       <h4>Testimonials</h4>
-      <div class="testimonials-texts">
-
-      </div>
+      <div class="testimonials-box">
+        <div class="mySlides">
+          <div class="testimonials-text">
+            "Christopher Tomaszycki prepared my will, durable power of attorney. He is easy to talk to, and very and through.
+            I was impressed with the documents compared that Christopher Tomaszycki prepared to the ones that I had from a previus attorney. Recently,
+            I had to make some changed to the documents. I made sure that I returned to see Christopher Tomaszycki to make the changes.
+            Even though, I could have went to our prepared legal plan provided by my employer, but I chose to return to Christopher Tomaszycki."
+            <br>
+            <br>
+          - Carol, August 30, 2015
+          </div>
+        </div>
+      
+        <div class="mySlides">
+          <div class="testimonials-text">
+            "Without the help of the entire Christopher Tomaszycki  firm, I know that I would not have had the successful outcomes I have had. 
+            Christopher Tomaszycki  took on an extremely difficult case and encountered issues that no one expected and few had ever seen. 
+            He worked tirelessly to make sure that the truth was told and presented it perfectly. 
+            He has stood by every one of my requests and guided me through the entire lengthy process. 
+            Though we faced challenges, Tomaszycki  did not falter. 
+            His thorough research provided us the pathway we needed to rise to victory. 
+            I will only recommend Tomaszycki  as I have never been nor have I ever seen anyone treated better. 
+            I am proud to be a Tomaszycki  client and will continue to retain them 
+            for all legal matters that may arise as I know I am in the best hands."
+            <br>
+            <br>
+          - Lucy, December 28, 2019
+          </div>        
+        </div>
+      
+        <div class="mySlides">
+          <div class="testimonials-text">
+            "Our lawyer, Christopher Tomaszycki, was outstanding. Calm, patient, reasonable in the termoil we were going through. 
+            We would definitely use Christopher Tomaszycki again although we hope not to have to."
+            <br>
+            <br>
+          - Catherine, January 5, 2021
+          </div>        
+        </div>
+        <div class="prev-next-box">
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div><!--prev-next-box-->
+        
+      </div><!--testimonials-texts-->
     </div>
 
     <footer id="contact">
@@ -95,16 +154,7 @@
       </div>
     </footer>
 
+    <script src="index.js"></script>
 
-    <script>
-        function mobileLink() {
-          var x = document.getElementById("myLinks");
-          if (x.style.display === "block") {
-            x.style.display = "none";
-          } else {
-            x.style.display = "block";
-          }
-        }
-    </script>
 </body>
 </html>
