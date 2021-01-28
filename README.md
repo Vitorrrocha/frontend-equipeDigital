@@ -22,7 +22,7 @@ A Front-End interface developed in Html5, CSS3 and Javascript.
 Link: https://vitorrrocha.github.io/frontend-equipeDigital/
 ### Available Scripts 💻
 
-**Cloning repository and running**
+**Cloning repository**
 
 ```bash
 $ git clone https://github.com/Vitorrrocha/frontend-equipeDigital && cd frontend-equipeDigital
