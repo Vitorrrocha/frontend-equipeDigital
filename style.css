@@ -361,12 +361,17 @@ footer .footer-container {
     flex-direction: column;
   }
 
+  #areas-container > h4 {
+    font-size: 28px;
+  }
+
   #areas-container > hr {
     width: 80px;
   }
 
   .areas-box {
-    width: 100%;
+    width: calc(550px + 25%);
+    margin: 20px auto 90px auto;
     display: flex;
     justify-content: space-between;
   }
@@ -378,6 +383,7 @@ footer .footer-container {
 
   .div-text-area .text {
     color: rgb(31, 31, 31);
+    /* height: 100%; */
   }
 
   #testimonials {
@@ -390,6 +396,7 @@ footer .footer-container {
   }
 
   #testimonials > h4 {
+    font-size: 28px;
     margin-bottom: 60px;
   }
 

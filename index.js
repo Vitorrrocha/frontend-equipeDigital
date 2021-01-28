@@ -30,3 +30,14 @@ slides[i].style.display = "none";
 }
 slides[slideIndex-1].style.display = "block";
 }
+
+//changeHeight
+
+function changeHeight() {
+  var x, i;
+  x = document.querySelectorAll(".text");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.height = "100%";
+  }
+}
+
