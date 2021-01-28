@@ -181,6 +181,7 @@ header {
 .testimonials-box {
   margin: auto;
   padding: 10px 5px;
+  position: absolute;
 }
 
 .testimonials-box .text {
@@ -202,7 +203,7 @@ header {
 .prev-next-box {
   width: 150px;
   min-width: 120px;
-  margin: 0 auto;
+  margin: 600px auto 0 auto;
   height: 30px;
   padding: 40px 0 40px 0;
   justify-content: space-between;
@@ -402,8 +403,9 @@ footer .footer-container {
 
   .testimonials-box {
     width: 100%;
-    max-width: 900px;
-    max-height: 400px;
+    height: 450px;
+    position: relative;
+
   }
 
   .testimonials-text {
@@ -413,6 +415,8 @@ footer .footer-container {
   .prev-next-box {
     width: 500px;
     margin-top: 50px;
+    /* margin: 550px auto 0 auto; */
+
   }
 
   .prev, .next {
