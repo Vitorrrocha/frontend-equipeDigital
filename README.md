@@ -18,7 +18,8 @@
   </a>
 </p>
 
-A Front-End interface developed in Html5, CSS3 and Javascript.
+## A Front-End interface developed in Html5, CSS3 and Javascript.
+
 Link: https://vitorrrocha.github.io/frontend-equipeDigital/
 ### Available Scripts 💻
 
