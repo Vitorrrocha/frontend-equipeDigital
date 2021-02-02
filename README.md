@@ -1,4 +1,4 @@
-# Front-End page
+<img alt="Layout Front-end Page" src="assets/Layout.jpeg"/>
 
 <p align="center">
   <a href="LICENSE" style="text-decoration: none">
